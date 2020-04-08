@@ -37,4 +37,15 @@ public class FizzBuzzTest {
         Assert.assertEquals("Buzz", result);
 
     }
+
+    @Test
+    public void return_number_when_it_is_divisible_by_both_3_and_5(){
+        //given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        //when
+        String result = fizzBuzz.say(15);
+        //then
+        Assert.assertEquals("FizzBuzz", result);
+
+    }
 }
